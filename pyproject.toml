@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tutorial-for-data-science"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tutorial_for_data_science"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+ipykernel = "^6.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
