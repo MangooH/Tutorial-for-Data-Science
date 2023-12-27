@@ -11,6 +11,7 @@ packages = [{include = "tutorial_for_data_science"}]
 python = "^3.11"
 numpy = "^1.26.2"
 ipykernel = "^6.27.1"
+pandas = "^2.1.4"
 
 
 [build-system]
